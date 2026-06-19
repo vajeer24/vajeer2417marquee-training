@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 100px  100px 100px 100px 100px 100px 70px;
+            grid-template-rows: 100px  100px 100px 100px 100px 100px 70px ;
+            gap: 10px;
+            background-color: black;
+        }
+        .box{
+            background-color: skyblue; 
+            grid-row:1/11;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+            
+        }
+        .box1{
+            background-color: rgb(5, 112, 154);
+            grid-column:2/8;
+            display: flex;
+             align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+        .box2{
+            background-color: rgb(122, 93, 184);
+            grid-column:2/4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+        .box3{
+            background-color: rgb(104, 169, 113);
+            grid-column:4/6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+         .box4{
+            background-color:pink;
+            grid-column:6/8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+         .box5{
+            background-color:rgb(33, 178, 64);
+            grid-column:2/6;
+            grid-row: 3/5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+        .box6{
+            background-color:rgb(118, 44, 104);
+            grid-column:6/8;
+            grid-row: 3/5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+        .box7{
+            background-color:rgb(118, 44, 104);
+            grid-column:2/4;
+            grid-row: 5/7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+         .box8{
+            background-color:rgb(233, 21, 14);
+            grid-column:4/6;
+            grid-row: 5/7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+        .box9{
+            background-color:rgb(215, 120, 174);
+            grid-column:6/8;
+            grid-row: 5/7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"><h2>sidebar</h2></h2></div>
+        <div class="box1"><h2>Top Navigation</h2></div>
+        <div class="box2"><h2> user<br> 12,450</h2>
+            
+        </div>
+        <div class="box3"><h2>Revenue<br>$24,800</h2></div>
+        <div class="box4"><h2>Orders<br>1,234</h2></div>
+        <div class="box5"><h2>chart<br>(span 2)</h2></div>
+        <div class="box6"><h2> Table</h2></div>
+        <div class="box7"><h2>Widget-1</h2></div>
+        <div class="box8"><h2>Widget-2</h2></div>
+        <div class="box9"><h2>Widget-3</h2></div>
+       
+    </div>
+    
+</body>
+</html>

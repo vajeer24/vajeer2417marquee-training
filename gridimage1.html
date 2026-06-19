@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        display: grid;
+        grid-template-columns: 100px 150px 100px ;
+        grid-template-rows: 50px 50px 50px;
+        gap:5px;
+        align-items: center;
+        justify-items: center;
+    }
+    /* justify-items: center; /* left | center | right(stretch) */
+    /* align-items: center;   top | center | bottom(stretch) */
+    
+    .item{
+        background-color:red;
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        justify-self: start;
+        
+         
+
+        
+    }
+
+    .item1{
+        background-color: cornflowerblue;
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+        justify-self:flex-end;
+    }
+    .item2{
+        background-color:green;
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+        justify-self: end;
+        
+    }
+.item3{
+        background-color: rgb(100, 237, 130);
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+        justify-self: center;
+    
+        
+    }
+    .item4{
+        background-color:rgb(80, 25, 209);
+        border: 2px solid black;
+
+        width: 30px;
+        height: 20px;
+        justify-self: end;
+        align-self: flex-start;
+    }
+.item5{
+        background-color:green;
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+        justify-self: start;
+        
+    }
+.item6{
+        background-color: rgb(12, 8, 238);
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+
+        align-self: end;
+    
+        
+    }
+    .item7{
+        background-color:rgb(161, 17, 96);
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+        justify-self: end;
+    }
+    .item8{
+        background-color:rgb(161, 17, 96);
+        border: 2px solid black;
+        width: 30px;
+        height: 20px;
+        justify-self: start;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+
+        <div class="item1"> </div>
+
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+        <div class="item6"></div>
+        <div class="item7"></div>
+        <div class="item8"></div>
+
+
+    </div>
+    
+</body>
+</html>

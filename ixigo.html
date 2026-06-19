@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+            grid-template-rows:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+            background-color: black;
+        }
+       .box1{
+        
+        background-color:white;
+        grid-column: 1/13;
+        grid-row: 1/3 ;
+         display: inline-block;
+         display: flex;
+       }
+.box2{
+        background-color: white;
+        grid-column: 1/13;
+        grid-row: 3/5 ;
+         display: inline-block;
+        display: flex;
+        
+       }
+.box3{
+        
+        background-color:#fff;   
+        grid-column: 1/13;
+        grid-row: 5/13 ;
+       }
+       .smallbox{
+        background-color:orange;
+       width:200px;
+       height: 100px;
+       margin-top: 40px;
+       margin-left: 30px;
+       border-radius: 20px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+       }
+       .smallbox1{
+       width:300px;
+       height: 100px;
+       margin-top: 40px;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+       margin-left: 1000px;
+       border-radius: 20px;
+       }
+       .smallbox2{
+       width:350px;
+       height: 100px;
+       margin-top: 40px;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-left: 50px;
+       border-radius: 20px;
+       }
+        .smallbox3{
+       width:500px;
+       height: 100px;
+       margin-top: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 20px;
+       
+       }
+       .circle{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border:solid #343a40;
+        margin-left: 20px;
+        background-image: url("pngtree-best-offer-logo-image-png-image_9035042.png");
+        background-size: contain;
+        
+       }
+       .circle1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    background-image:  url("1000_F_654090831_ubmDJVVd1PAjCSWvmsYKTJP59BqVdEvh.jpg");
+        background-size: contain;
+       }
+       .circle2{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border:solid ;
+        margin-left: 20px;
+         background-image:  url("9fcafc6b32ac191685d067086c6072e3-cyrbh.webp");
+        background-size: contain;
+        
+
+        
+       }
+       .smallbox4{
+        width: 600px;
+        height: 150px;
+        margin-top: 30px;
+        margin-left: 40px;
+        display: inline-block;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+
+
+       }
+       .smallbox5{
+        width: 400px;
+        height: 150px;
+        margin-left: 40px;
+        display: flex;
+        position:relative;
+        top: 30px;
+ justify-content: center;
+        align-items: center;
+        
+       }
+       .smallbox6{
+        width: 400px;
+        height: 150px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        top: 30px;
+
+       }
+       .smallbox7{
+        width: 400px;
+        height: 150px;
+        margin-left: 40px;
+        display: flex;
+        position:relative;
+        top: 30px;
+        justify-content:center;
+        align-items: center;
+       }
+        .circle3{ 
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 30px;
+         background-image:  url("flight-icon-22.png");
+        background-size: cover;
+        background-size: 100% 100%;
+       } 
+       .circle4{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right:30px;
+        display: flex;
+     background-image: url("hotel-logo-silhouette-hotel-icon-vector\ copy.webp");
+     background-size: contain;
+       }
+        .circle5{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        margin-right: 20px;
+        background-image: url("modern-train-illustration-sign-icon-png-modern-train-illustration-sign-icon-isolated-transparent-background-graphic-element-248112994.webp");
+    background-size:contain;  
+    }
+       .circle6{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;  
+        margin-right: 30px;
+        background-image: url("OIP\ \(7\).jpg");
+        background-size: 100% 100%;
+    
+       }
+       .rectangle{
+        width: 2200px;
+        height: 100px;
+        display:flex;
+        border: 20px solid white;
+        gap:20px;
+        background-color: #fff;
+        top: 50PX;
+        border-radius: 20px;
+       }
+       
+       .rectangle1{
+        width: 500px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        border-radius: 20px;
+        background-color:whitesmoke;
+        left:10px;
+       }
+    
+.rectangle2{
+        width: 800px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        background-color:whitesmoke;
+        border-radius: 20px;        
+        justify-content: center;
+        align-items: center;
+       }
+     .rectangle3{
+        width: 300px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        background-color:orange;
+        border-radius: 20px; 
+        align-items: center;
+        justify-content: center;       
+
+       }    
+       .tatkal{
+        width:150px;
+        height: 50px;
+        margin-left:10px;
+        background-image: url("Screenshot\ 2026-06-08\ 224939.png");
+        background-size:contain;
+        background-repeat: no-repeat ;
+        border-radius: 20px;
+       }
+    .tatkal1{
+        width:150px;
+        height: 50px;
+        margin-left:10px;
+         border-radius: 20px;
+          background-image: url("Screenshot\ 2026-06-08\ 231223.png");
+        background-size: contain;
+        background-repeat: no-repeat ;
+       }
+        .rectangle4{
+        width: 2200px;
+        height: 100px;
+        display:flex;
+        border: 20px solid white;
+        gap:20px;
+        background-color: #fff;
+        background-image: url("Screenshot\ 2026-06-08\ 233236.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        
+       }
+    .rectangle5{
+        width: 2200px;
+        height: 300px;
+        display:flex;
+        border: 20px solid white;
+        gap:20px;
+        background-color: #b44040;
+        background-image: url("Screenshot\ 2026-06-08\ 234139.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+       }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box1">
+    <div class="smallbox"><h1 style="color:white;font-size: 60px;">ixigo</h1></div>
+    <div class="smallbox1">
+        <div class="circle"></div>
+        <h1 style="color: #343a40;font-size: 40px;">Offer</h1>
+    </div>
+    <div class="smallbox2">
+        <div class="circle1"></div>
+        <h1 style="color:#343a40 ;font-size:38px;">Customer Service</h1>
+    </div>
+    <div class="smallbox3">
+        <div class="circle2"></div>
+        <h1  style="font-size: 40px;">Log in/Sign up</h1></div>
+    </div>
+    <div class="box2">
+        <div class="smallbox4">
+            <div class="circle3"></div>
+            <h1 style="color:#343a40;font-size: 50px ;">Flights</h1>
+        </div>
+        <div class="smallbox5">
+            <div class="circle4"></div>
+            <h1 style="color:#343a40;font-size: 50px;">Hotels</h1>
+        </div>
+        <div class="smallbox6">
+            <div class="circle5"></div>
+             <h1 style="color:#343a40;font-size: 50px;">Train</h1>
+        </div>
+        <div class="smallbox7">
+            <div class="circle6"></div>
+            <h1 style="color:#343a40;font-size: 50px;">Buses</h1>
+        </div>
+        
+    </div>
+    <div class="box3">
+<div class="rectangle">
+    <div class="rectangle1">
+        <h1 style="color:black;font-size:50px;">From</h1>
+    </div>
+    <div class="rectangle1">
+        <h1 style="font-size:50px;">To</h1>
+    </div>
+    <div class="rectangle2">
+        <h1 style="color:black;">Dapature Date<br>Mon,08 JUN</h1>
+       
+        <div class="tatkal"></div>
+        <div  class="tatkal1"></div>
+    </div>
+    <div class="rectangle3">
+        <h1 style="color: white;">SIGN</h1>
+</div>
+    </div>
+    <div class="rectangle4">
+    </div>
+
+
+    <div class="box4">
+        <div class="rectangle5"></div>
+    </div>
+
+
+    </div>
+    
+</body>
+</html>
